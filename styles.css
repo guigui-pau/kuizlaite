@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mode-button, .create-button, .edit-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.create-button {
+    background-color: #2196F3;
+}
+
+.edit-button {
+    background-color: #FF9800;
+}
+
+.mode-button:hover, .create-button:hover, .edit-button:hover {
+    background-color: #db2929;
+}
+
+#flashcard, #qcm, #creator, #edit-section {
+    display: none;
+    margin-top: 20px;
+}
+
+.flashcard, .qcm-question {
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: white;
+}
+
+.qcm-result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.qcm-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.qcm-options button {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f4f4f9;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.qcm-options button:hover {
+    background-color: #ddd;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.edit-section {
+    text-align: left;
+}
+
+.edit-section button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
